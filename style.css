@@ -4,17 +4,18 @@ body{
     display: block;
     overflow-x: hidden;
     font-size: 18px;
-    background-color: #6667AB;
+    background-image: linear-gradient(to right bottom, #7453dd, #5a5cda, #4063d5, #2468ce, #016bc4);
+    min-height: 100vh;
 }
 
 .ls-h1{
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 3rem;
     color: #ffffff;
 }
 
 .ls-h2{
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 1.5rem;
     color: #ffffff;
 }
