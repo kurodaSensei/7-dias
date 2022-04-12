@@ -4,7 +4,9 @@ body{
     display: block;
     overflow-x: hidden;
     font-size: 18px;
-    background-image: linear-gradient(to right bottom, #7453dd, #5a5cda, #4063d5, #2468ce, #016bc4);
+    background-image: linear-gradient(to right bottom, #643bec, #6a50d0, #4051d5, #2468ce, #016bc4);
+    background-size: 400% 400%;
+	animation: animateBackground 15s cubic-bezier(0.22, 1, 0.36, 1) infinite;
     min-height: 100vh;
 }
 
@@ -18,4 +20,16 @@ body{
     font-family: 'Courgette', cursive;
     font-size: 1.5rem;
     color: #ffffff;
+}
+
+@keyframes animateBackground {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
